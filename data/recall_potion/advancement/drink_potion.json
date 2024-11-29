@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "drinkPotion": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:potion",
+            "components": {
+              "minecraft:custom_data": "{recallpotion:1}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "recall_potion:teleport/init"
+    }
+  }

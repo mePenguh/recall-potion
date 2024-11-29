@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "pack_format": 57,
+        "supported_formats": {"min_inclusive": 48, "max_inclusive": 57},
+        "description": [{"text":"An alternative to /home!","color":"blue"},{"text": " 1.21(.3)","color":"aqua"}]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": 48,
+                "directory": "overlay_format_48"
+            }
+        ]
+    }
+}
