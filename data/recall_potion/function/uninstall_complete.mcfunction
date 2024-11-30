@@ -8,5 +8,5 @@ data remove storage recall_potion:main FountainY
 data remove storage recall_potion:main FountainState
 execute in minecraft:the_end run forceload remove 0 0 0 0
 tag @a remove recall_debug
-datapack disable "file/Pengu's Recall Potion v1.2.zip"
-datapack disable "file/Pengu's Recall Potion v1.2"
+datapack disable "file/Pengu's Recall Potion v1.2.1.zip"
+datapack disable "file/Pengu's Recall Potion v1.2.1"
