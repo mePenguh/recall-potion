@@ -647,6 +647,23 @@
     "minecraft:chiseled_tuff_bricks",
     "minecraft:tuff_slab",
     "minecraft:tuff_stairs",
-    "minecraft:vault"
+    "minecraft:vault",
+
+    "minecraft:creaking_heart",
+    "minecraft:pale_moss_block",
+    "minecraft:pale_oak_leaves",
+    "minecraft:pale_oak_log",
+    "minecraft:stripped_pale_oak_log",
+    "minecraft:pale_oak_wood",
+    "minecraft:stripped_pale_oak_wood",
+    "minecraft:pale_oak_planks",
+    "minecraft:pale_oak_slab",
+    "minecraft:pale_oak_stairs",
+    "minecraft:pale_oak_trapdoor",
+    "minecraft:resin_block",
+    "minecraft:resin_bricks",
+    "minecraft:chiseled_resin_bricks",
+    "minecraft:resin_brick_slab",
+    "minecraft:resin_brick_stairs"
   ]
 }
