@@ -217,12 +217,12 @@
     "#minecraft:fence_gates",
     "#minecraft:doors",
 
-    "minecraft:pale_hanging_moss",
-    "minecraft:pale_oak_button",
-    "minecraft:pale_oak_sign",
-    "minecraft:pale_oak_wall_sign",
-    "minecraft:pale_oak_hanging_sign",
-    "minecraft:pale_oak_wall_hanging_sign",
-    "minecraft:resin_clump"
+    {"id": "minecraft:pale_hanging_moss", "required": false},
+    {"id": "minecraft:pale_oak_button", "required": false},
+    {"id": "minecraft:pale_oak_sign", "required": false},
+    {"id": "minecraft:pale_oak_wall_sign", "required": false},
+    {"id": "minecraft:pale_oak_hanging_sign", "required": false},
+    {"id": "minecraft:pale_oak_wall_hanging_sign", "required": false},
+    {"id": "minecraft:resin_clump", "required": false}
   ]
 }
