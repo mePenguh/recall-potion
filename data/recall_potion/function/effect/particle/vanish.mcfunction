@@ -1,4 +1,4 @@
-#> recall_potion:effect/particle/vanish.mcfunction"
+#> recall_potion:effect/particle/vanish.mcfunction
 # 
 # @calledby     [F] recall_potion:recall/init
 #

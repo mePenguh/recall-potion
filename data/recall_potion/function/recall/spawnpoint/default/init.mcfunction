@@ -1,4 +1,4 @@
-#> recall_potion:recall/spawnpoint/default/init.mcfunction"
+#> recall_potion:recall/spawnpoint/default/init.mcfunction
 # 
 # @calledby     [F] recall_potion:recall/spawnpoint/identify
 #

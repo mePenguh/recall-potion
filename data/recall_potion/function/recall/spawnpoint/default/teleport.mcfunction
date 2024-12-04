@@ -1,4 +1,4 @@
-#> recall_potion:recall/spawnpoint/default/teleport.mcfunction"
+#> recall_potion:recall/spawnpoint/default/teleport.mcfunction
 # 
 # @calledby     [F] recall_potion:recall/spawnpoint/default/init
 #

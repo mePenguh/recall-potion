@@ -1,4 +1,4 @@
-#> recall_potion:load.mcfunction"
+#> recall_potion:load.mcfunction
 # 
 # @calledby     [T] #minecraft:load
 #

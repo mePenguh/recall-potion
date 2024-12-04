@@ -1,4 +1,4 @@
-#> recall_potion:recall/fallback/world_spawn/locate.mcfunction"
+#> recall_potion:recall/fallback/world_spawn/locate.mcfunction
 # 
 # @calledby     [F] recall_potion:load
 #               [S] recall_potion:recall/fallback/world_spawn/locate

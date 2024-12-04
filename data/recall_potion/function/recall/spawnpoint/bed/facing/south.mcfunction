@@ -1,4 +1,4 @@
-#> recall_potion:recall/spawnpoint/bed/facing/south.mcfunction"
+#> recall_potion:recall/spawnpoint/bed/facing/south.mcfunction
 # 
 # @calledby     [F] recall_potion:recall/spawnpoint/bed/get_facing
 #

@@ -1,4 +1,4 @@
-#> recall_potion:recall/init.mcfunction"
+#> recall_potion:recall/init.mcfunction
 # 
 # @calledby     [A] recall_potion:utility/used_potion
 #

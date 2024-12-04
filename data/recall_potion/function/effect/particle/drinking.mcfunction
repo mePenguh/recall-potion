@@ -1,4 +1,4 @@
-#> recall_potion:effect/particle/drinking.mcfunction"
+#> recall_potion:effect/particle/drinking.mcfunction
 # 
 # @calledby     [A] recall_potion:utility/drinking_potion
 #

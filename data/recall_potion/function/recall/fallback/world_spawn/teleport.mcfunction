@@ -1,4 +1,4 @@
-#> recall_potion:recall/world_spawn.mcfunction"
+#> recall_potion:recall/world_spawn.mcfunction
 # 
 # @calledby     [F] recall_potion:recall/init  -  with storage recall_potion:main WorldSpawn
 #               [F] recall_potion:recall/spawnpoint/identify  -  with storage recall_potion:main WorldSpawn

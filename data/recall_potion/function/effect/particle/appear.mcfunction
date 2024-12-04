@@ -1,4 +1,4 @@
-#> recall_potion:effect/particle/appear.mcfunction"
+#> recall_potion:effect/particle/appear.mcfunction
 # 
 # @calledby     [F] recall_potion:
 #

@@ -1,4 +1,4 @@
-#> recall_potion:recall/spawnpoint/identify.mcfunction"
+#> recall_potion:recall/spawnpoint/identify.mcfunction
 # 
 # @calledby     [F] recall_potion:recall/init  -  with recall_potion:main Player
 #
