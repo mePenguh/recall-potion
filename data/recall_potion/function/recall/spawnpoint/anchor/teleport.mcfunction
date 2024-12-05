@@ -3,33 +3,33 @@
 # @calledby     [F] recall_potion:recall/spawnpoint/anchor/init
 #
 
-execute if block ~ ~-1 ~-1 #recall_potion:safe_ground unless block ~ ~-1 ~-1 #minecraft:trapdoors[open=true] if block ~ ~ ~-1 #recall_potion:safe_feet unless block ~ ~ ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~ ~1 ~-1 #recall_potion:safe_head unless block ~ ~1 ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~ ~ ~-1
-execute if block ~-1 ~-1 ~ #recall_potion:safe_ground unless block ~-1 ~-1 ~ #minecraft:trapdoors[open=true] if block ~-1 ~ ~ #recall_potion:safe_feet unless block ~-1 ~ ~ #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~1 ~ #recall_potion:safe_head unless block ~-1 ~1 ~ #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~ ~
-execute if block ~ ~-1 ~1 #recall_potion:safe_ground unless block ~ ~-1 ~1 #minecraft:trapdoors[open=true] if block ~ ~ ~1 #recall_potion:safe_feet unless block ~ ~ ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~ ~1 ~1 #recall_potion:safe_head unless block ~ ~1 ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~ ~ ~1
-execute if block ~1 ~-1 ~ #recall_potion:safe_ground unless block ~1 ~-1 ~ #minecraft:trapdoors[open=true] if block ~1 ~ ~ #recall_potion:safe_feet unless block ~1 ~ ~ #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~1 ~ #recall_potion:safe_head unless block ~1 ~1 ~ #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~ ~
-execute if block ~-1 ~-1 ~-1 #recall_potion:safe_ground unless block ~-1 ~-1 ~-1 #minecraft:trapdoors[open=true] if block ~-1 ~ ~-1 #recall_potion:safe_feet unless block ~-1 ~ ~-1 #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~1 ~-1 #recall_potion:safe_head unless block ~-1 ~1 ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~ ~-1
-execute if block ~1 ~-1 ~-1 #recall_potion:safe_ground unless block ~1 ~-1 ~-1 #minecraft:trapdoors[open=true] if block ~1 ~ ~-1 #recall_potion:safe_feet unless block ~1 ~ ~-1 #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~1 ~-1 #recall_potion:safe_head unless block ~1 ~1 ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~ ~-1
-execute if block ~-1 ~-1 ~1 #recall_potion:safe_ground unless block ~-1 ~-1 ~1 #minecraft:trapdoors[open=true] if block ~-1 ~ ~1 #recall_potion:safe_feet unless block ~-1 ~ ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~1 ~1 #recall_potion:safe_head unless block ~-1 ~1 ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~ ~1
-execute if block ~1 ~-1 ~1 #recall_potion:safe_ground unless block ~1 ~-1 ~1 #minecraft:trapdoors[open=true] if block ~1 ~ ~1 #recall_potion:safe_feet unless block ~1 ~ ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~1 ~1 #recall_potion:safe_head unless block ~1 ~1 ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~ ~1
+execute positioned ~ ~ ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~ ~ if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~ ~ ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~ ~ if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~ ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~ ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~ ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~ ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
 
-execute if block ~ ~-2 ~-1 #recall_potion:safe_ground unless block ~ ~-2 ~-1 #minecraft:trapdoors[open=true] if block ~ ~-1 ~-1 #recall_potion:safe_feet unless block ~ ~-1 ~-1 #recall_potion:gates_and_trapdoors[open=false] if block ~ ~ ~-1 #recall_potion:safe_head unless block ~ ~ ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~ ~-1 ~-1
-execute if block ~-1 ~-2 ~ #recall_potion:safe_ground unless block ~-1 ~-2 ~ #minecraft:trapdoors[open=true] if block ~-1 ~-1 ~ #recall_potion:safe_feet unless block ~-1 ~-1 ~ #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~ ~ #recall_potion:safe_head unless block ~-1 ~ ~ #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~-1 ~
-execute if block ~ ~-2 ~1 #recall_potion:safe_ground unless block ~ ~-2 ~1 #minecraft:trapdoors[open=true] if block ~ ~-1 ~1 #recall_potion:safe_feet unless block ~ ~-1 ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~ ~ ~1 #recall_potion:safe_head unless block ~ ~ ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~ ~-1 ~1
-execute if block ~1 ~-2 ~ #recall_potion:safe_ground unless block ~1 ~-2 ~ #minecraft:trapdoors[open=true] if block ~1 ~-1 ~ #recall_potion:safe_feet unless block ~1 ~-1 ~ #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~ ~ #recall_potion:safe_head unless block ~1 ~ ~ #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~-1 ~
-execute if block ~-1 ~-2 ~-1 #recall_potion:safe_ground unless block ~-1 ~-2 ~-1 #minecraft:trapdoors[open=true] if block ~-1 ~-1 ~-1 #recall_potion:safe_feet unless block ~-1 ~-1 ~-1 #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~ ~-1 #recall_potion:safe_head unless block ~-1 ~ ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~-1 ~-1
-execute if block ~1 ~-2 ~-1 #recall_potion:safe_ground unless block ~1 ~-2 ~-1 #minecraft:trapdoors[open=true] if block ~1 ~-1 ~-1 #recall_potion:safe_feet unless block ~1 ~-1 ~-1 #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~ ~-1 #recall_potion:safe_head unless block ~1 ~ ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~-1 ~-1
-execute if block ~-1 ~-2 ~1 #recall_potion:safe_ground unless block ~-1 ~-2 ~1 #minecraft:trapdoors[open=true] if block ~-1 ~-1 ~1 #recall_potion:safe_feet unless block ~-1 ~-1 ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~ ~1 #recall_potion:safe_head unless block ~-1 ~ ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~-1 ~1
-execute if block ~1 ~-2 ~1 #recall_potion:safe_ground unless block ~1 ~-2 ~1 #minecraft:trapdoors[open=true] if block ~1 ~-1 ~1 #recall_potion:safe_feet unless block ~1 ~-1 ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~ ~1 #recall_potion:safe_head unless block ~1 ~ ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~-1 ~1
+execute positioned ~ ~-1 ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~-1 ~ if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~ ~-1 ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~-1 ~ if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~-1 ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~-1 ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~-1 ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~-1 ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
 
-execute if block ~ ~ ~-1 #recall_potion:safe_ground unless block ~ ~ ~-1 #minecraft:trapdoors[open=true] if block ~ ~1 ~-1 #recall_potion:safe_feet unless block ~ ~1 ~-1 #recall_potion:gates_and_trapdoors[open=false] if block ~ ~2 ~-1 #recall_potion:safe_head unless block ~ ~2 ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~ ~1 ~-1
-execute if block ~-1 ~ ~ #recall_potion:safe_ground unless block ~-1 ~ ~ #minecraft:trapdoors[open=true] if block ~-1 ~1 ~ #recall_potion:safe_feet unless block ~-1 ~1 ~ #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~2 ~ #recall_potion:safe_head unless block ~-1 ~2 ~ #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~1 ~
-execute if block ~ ~ ~1 #recall_potion:safe_ground unless block ~ ~ ~1 #minecraft:trapdoors[open=true] if block ~ ~1 ~1 #recall_potion:safe_feet unless block ~ ~1 ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~ ~2 ~1 #recall_potion:safe_head unless block ~ ~2 ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~ ~1 ~1
-execute if block ~1 ~ ~ #recall_potion:safe_ground unless block ~1 ~ ~ #minecraft:trapdoors[open=true] if block ~1 ~1 ~ #recall_potion:safe_feet unless block ~1 ~1 ~ #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~2 ~ #recall_potion:safe_head unless block ~1 ~2 ~ #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~1 ~
-execute if block ~-1 ~ ~-1 #recall_potion:safe_ground unless block ~-1 ~ ~-1 #minecraft:trapdoors[open=true] if block ~-1 ~1 ~-1 #recall_potion:safe_feet unless block ~-1 ~1 ~-1 #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~2 ~-1 #recall_potion:safe_head unless block ~-1 ~2 ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~1 ~-1
-execute if block ~1 ~ ~-1 #recall_potion:safe_ground unless block ~1 ~ ~-1 #minecraft:trapdoors[open=true] if block ~1 ~1 ~-1 #recall_potion:safe_feet unless block ~1 ~1 ~-1 #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~2 ~-1 #recall_potion:safe_head unless block ~1 ~2 ~-1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~1 ~-1
-execute if block ~-1 ~ ~1 #recall_potion:safe_ground unless block ~-1 ~ ~1 #minecraft:trapdoors[open=true] if block ~-1 ~1 ~1 #recall_potion:safe_feet unless block ~-1 ~1 ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~-1 ~2 ~1 #recall_potion:safe_head unless block ~-1 ~2 ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~-1 ~1 ~1
-execute if block ~1 ~ ~1 #recall_potion:safe_ground unless block ~1 ~ ~1 #minecraft:trapdoors[open=true] if block ~1 ~1 ~1 #recall_potion:safe_feet unless block ~1 ~1 ~1 #recall_potion:gates_and_trapdoors[open=false] if block ~1 ~2 ~1 #recall_potion:safe_head unless block ~1 ~2 ~1 #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~1 ~1 ~1
-execute if block ~ ~ ~ minecraft:respawn_anchor if block ~ ~1 ~ #recall_potion:safe_feet unless block ~ ~1 ~ #recall_potion:gates_and_trapdoors[open=false] if block ~ ~2 ~ #recall_potion:safe_head unless block ~ ~2 ~ #recall_potion:gates_and_trapdoors[open=false] run return run tp @s ~ ~1 ~
+execute positioned ~ ~1 ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~1 ~ if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~ ~1 ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~1 ~ if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~1 ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~1 ~-1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~-1 ~1 ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~1 ~1 ~1 if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
+execute positioned ~ ~1 ~ if predicate recall_potion:recall/safe/default run return run tp @s ~ ~ ~
 
 forceload remove ~-2 ~-2 ~2 ~2
 
