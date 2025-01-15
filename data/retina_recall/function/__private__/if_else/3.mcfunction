@@ -1,0 +1,2 @@
+execute align xyz if entity @e[type=!#retina_recall:intangible,tag=!retina.ignore,tag=!retina.executing,dx=0,dy=0,dz=0] run function retina_recall:check/entity/found
+scoreboard players set __if_else__ retina.__variable__ 1

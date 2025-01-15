@@ -1,6 +1,6 @@
 {
     "values": [
     "recall_potion:load",
-    "retina:__load__"
+    "retina_recall:__load__"
 ]
 }

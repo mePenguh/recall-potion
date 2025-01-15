@@ -1,0 +1,6 @@
+data modify storage retina_recall:data Surfaces.Top append value [450,480,0,480,480,480]
+data modify storage retina_recall:data Surfaces.Bottom append value [450,0,0,480,0,480]
+data modify storage retina_recall:data Surfaces.West append value [450,0,0,450,480,480]
+data modify storage retina_recall:data Surfaces.East append value [480,0,0,480,480,480]
+data modify storage retina_recall:data Surfaces.North append value [450,0,0,480,480,0]
+data modify storage retina_recall:data Surfaces.South append value [450,0,480,480,480,480]
