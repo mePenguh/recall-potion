@@ -1,7 +1,7 @@
 #> recall_potion:recall/fallback/world_spawn/locate.mcfunction
 # 
 # @calledby     [F] recall_potion:load
-#               [S] recall_potion:recall/fallback/world_spawn/locate
+#               [S] recall_potion:recall/fallback/world_spawn/locate  -  5s
 #
 
 summon marker ~ ~ ~ {Tags:["recall_potion.world_spawn_locator"]}

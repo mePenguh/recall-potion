@@ -8,8 +8,13 @@ advancement grant @s only recall_potion:homecoming
 
 function recall_potion:effect/particle/vanish
 
-execute unless data entity @s SpawnX run return run function recall_potion:recall/fallback/world_spawn/teleport with storage recall_potion:main WorldSpawn
 
+execute if score @s recall_potion.id matches 0 run function recall_potion:recall/set_player_id
+tag @s add recall_potion.temp
+execute positioned ~ ~1000 ~ summon marker run function recall_potion:recall/setup_marker
+
+
+execute unless data entity @s SpawnX run return run function recall_potion:recall/fallback/world_spawn/teleport with storage recall_potion:main WorldSpawn
 
 data modify storage recall_potion:main Player.SpawnDimension set from entity @s SpawnDimension
 data modify storage recall_potion:main Player.SpawnX set from entity @s SpawnX

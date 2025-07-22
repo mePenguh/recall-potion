@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "recall_potion:loot/temp"
+        "function": "recall_potion:loot/get_target/abandoned_mineshaft"
     }
 }

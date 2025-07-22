@@ -1,0 +1,2 @@
+schedule function recall_potion:soundtestloop 1t
+execute in minecraft:overworld positioned -728.50 -60.00 -40.56 as @n[type=marker,tag=recall.tp_location] if loaded ~ ~ ~ run function recall_potion:soundtestplay
